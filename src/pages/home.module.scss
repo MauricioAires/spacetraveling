@@ -1,1 +1,53 @@
-// TODO
+.Wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  a {
+    text-decoration: none;
+    color: unset;
+  }
+
+  main {
+    width: 100%;
+  }
+}
+
+.Post {
+  cursor: pointer;
+  width: 100%;
+
+  & + article.Post {
+    margin-top: var(--huge);
+  }
+
+  &:last-of-type {
+    margin-bottom: var(--huge);
+  }
+
+  h2 {
+    color: var(--heading);
+    font-weight: bold;
+    font-size: var(--large);
+    line-height: var(--large);
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: var(--xxsmall);
+    margin-bottom: var(--xmedium);
+  }
+}
+
+.Footer {
+  button {
+    margin-bottom: var(--huge);
+    color: var(--highlight);
+    font-weight: 600;
+
+    background: transparent;
+    border: none;
+  }
+}

@@ -1,1 +1,22 @@
-// TODO
+.Container {
+  max-width: var(--lg);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--small);
+
+  footer {
+    display: flex;
+    gap: var(--xmedium);
+    color: var(--info);
+
+    > div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: var(--xxsmall);
+
+      font-size: var(--small);
+    }
+  }
+}

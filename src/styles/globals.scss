@@ -5,3 +5,51 @@
 }
 
 // TODO
+:root {
+  --highlight: #ff57b2;
+  --heading: #f8f8f8;
+  --background: #1a1d23;
+  --info: #bbbbbb;
+  --body: #d7d7d7;
+
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1280px;
+
+  --xxsmall: 0.5rem; // 8px
+  --small: 0.875rem; // 14px
+  --medium: 1.125rem; // 18px
+  --xmedium: 1.5rem; // 24px
+  --large: 1.75rem; // 28px
+  --xlarge: 2.25rem; // 36px
+  --huge: 3rem; // 48px
+}
+
+// Desktop
+html {
+  font-size: 93.75%;
+}
+
+@media (max-width: var(--md)) {
+  // Ipad
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--body);
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font: 400 1rem 'Inter', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
