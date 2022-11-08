@@ -43,6 +43,26 @@ Abaixo as tecnologias utilizadas para construção da aplicação
 
 ---
 
+## 🏃🏾 Testes
+
+Para estar completo, o projeto deve passar pelos seguintes testes quando é entregue na plataforma da rocketseat:
+
+- [x] Header should be able to render logo
+- [x] Header should be able to navigate to home page after a click
+- [x] Post should be able to return prismic posts documents paths using getStaticPaths
+- [x] Post should be able to return prismic post document using getStaticProps
+- [x] Post should be able to render post document info
+- [x] Post should be able to render loading message if fallback
+- [x] Home should be able to return prismic posts documents using getStaticProps
+- [x] Home should be able to render posts documents info
+- [x] Home should be able to navigate to post page after a click
+- [x] Home should be able to load more posts if available
+- [x] Home should not be able to load more posts if not available
+
+Resultado do Projeto:
+
+ <img alt="Logo" src="./public/result.png" alt="SpaceTraveling - result">
+
 ## Configurações necessárias
 
 ### **Requisitos**
