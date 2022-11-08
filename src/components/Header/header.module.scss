@@ -1,1 +1,10 @@
-// TODO
+.Wrapper {
+  max-width: var(--lg);
+  width: 100%;
+  margin: 0 auto;
+
+  > div {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+  }
+}
