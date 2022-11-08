@@ -81,12 +81,6 @@ Criar conta e configurar o serviço do Prismic CMS e Utterances:
 # Execute yarn para instalar as dependências
 $ yarn
 
-# Na raiz do projeto crie uma copia do arquivo .env.local.example
-# Altere o nome da copia para .env.local
-# Preencha as variáveis ambiente de acordo com as instruções
-$ cp .env.local.example .env.local
-
-
 # Para iniciar a aplicação
 $ yarn dev
 
