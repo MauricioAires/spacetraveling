@@ -1,1 +1,44 @@
-// TODO
+.Banner {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  max-height: 400px;
+}
+
+.Content {
+  header {
+    font-size: var(--huge);
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    color: var(--heading);
+  }
+}
+
+.PostContent {
+  .Heading {
+    font-size: var(--xlarge);
+    line-height: var(--xlarge);
+    margin: var(--xlarge) 0;
+    color: var(--heading);
+  }
+
+  a {
+    text-decoration: underline;
+    color: var(--body);
+
+    &:hover {
+      color: var(--highlight);
+    }
+  }
+  p,
+  ul {
+    margin: 1.5rem 0;
+  }
+  ul {
+    padding-left: 1.5rem;
+
+    li {
+      margin: 0.5rem 0;
+    }
+  }
+}
